@@ -1,47 +1,43 @@
-# TypeScript Next.js example
+# Hello. I'm Ovi. 👋
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+## Software Developer & Maker based in Bucharest
 
-## Preview
+> I help early-stage founders and small business owners build technical solutions for their needs.
+>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## **What I Do**
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+### 💻 **Product Discovery**
 
-## Deploy your own
+I combine business, tech, and design in order to discover products that are valuable, feasible, and usable.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+### 🚀 **MVPs**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+I create lean, highly effective MVP experiments. Testing with real people against actual problems to ensure your core
+assumptions are validated.
 
-## How to use it?
+### 🛒Websites and E-Commerce
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+I create and grow highly engaged online e-commerce websites for you to grow your business
 
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
+### 🔎 Customer Development
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+I help identify the right problems to solve so that you build something that your customers will buy, helping you learn
+more about your customers.
 
-## Notes
+## Office Hours
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+Looking for some product advice? Need help with validating an idea? Want to know how to create an MVP?
 
-```
-npm install --save-dev typescript
-```
+Book a 30 min call with me:
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+**[Book Now](https://calendly.com/ovidiu-stoica/chat)**
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+--- 
+**[Twitter](https://twitter.com/ovstoica)**
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+**[Medium](https://medium.com/@ovidiu.stoica1094)**
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
+**[LinkedIn](https://www.linkedin.com/in/ovidiu-stoica-6b74b9123/)**
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+**[PH](https://www.producthunt.com/@stoica94)**
