@@ -8,7 +8,7 @@ import smallFav from '../public/favicon-16x16.png'
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html className={'font-sans'}>
         <Head>
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
           <link
