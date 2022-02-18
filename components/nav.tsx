@@ -126,28 +126,28 @@ export function Nav() {
           </div>
         </Popover.Panel>
       </Transition>
-      <style global>{
+      <style jsx global>{
         //language=CSS
         `
-            .link-underline {
-                border-bottom-width: 0;
-                background-image: linear-gradient(transparent, transparent),
-                linear-gradient(#fff, #fff);
-                background-size: 0 3px;
-                background-position: 0 100%;
-                background-repeat: no-repeat;
-                transition: background-size 0.1s ease-in-out;
-            }
+          .link-underline {
+            border-bottom-width: 0;
+            background-image: linear-gradient(transparent, transparent),
+              linear-gradient(#fff, #fff);
+            background-size: 0 3px;
+            background-position: 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size 0.1s ease-in-out;
+          }
 
-            .link-underline-black {
-                background-image: linear-gradient(transparent, transparent),
-                linear-gradient(to right, rgb(168 85 247), rgb(79 70 229));
-            }
+          .link-underline-black {
+            background-image: linear-gradient(transparent, transparent),
+              linear-gradient(to right, rgb(168 85 247), rgb(79 70 229));
+          }
 
-            .link-underline:hover {
-                background-size: 100% 3px;
-                background-position: 0 100%;
-            }
+          .link-underline:hover {
+            background-size: 100% 3px;
+            background-position: 0 100%;
+          }
         `
       }</style>
     </Popover>
