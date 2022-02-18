@@ -1,10 +1,19 @@
 import React from 'react'
-import { AppProps } from 'next/app'
+import {AppProps} from 'next/app'
+import '../styles/globals.css'
+import {DefaultSeo} from 'next-seo'
+import SEO from '../next-seo.json'
+import {ThemeProvider} from 'next-themes'
 
-import '../styles/index.css'
-
-function MyApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />
+function MyApp({Component, pageProps}: AppProps) {
+  return (
+    <>
+      <DefaultSeo {...SEO} />
+      <ThemeProvider attribute="class" enableSystem>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  )
 }
 
 export default MyApp

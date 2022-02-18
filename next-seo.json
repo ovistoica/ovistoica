@@ -1,0 +1,35 @@
+{
+  "title": "",
+  "titleTemplate": "%s | Ovi",
+  "description": "Hi, I'm Ovi Stoica! I help people and startups build quality software and I write about technology and startups",
+  "favicon": "/favicon.ico",
+  "additionalMetaTags": [
+    {
+      "property": "author",
+      "content": "Ovi Stoica"
+    },
+    {
+      "property": "keywords",
+      "content": ""
+    }
+  ],
+  "twitter": {
+    "cardType": "summary",
+    "handle": "jhooks",
+    "site": "jhooks"
+  },
+  "openGraph": {
+    "type": "website",
+    "site_name": "Ovi Stoica's Website",
+    "profile": {
+      "firstName": "Ovi"
+    },
+    "images": [
+      {
+        "url": "/images/og.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  }
+}
