@@ -1,9 +1,5 @@
 import * as React from 'react'
 import Document, {Html, Head, Main, NextScript} from 'next/document'
-import appleTouch from '../public/apple-touch-icon.png'
-import largeFav from '../public/favicon-32x32.png'
-import smallFav from '../public/favicon-16x16.png'
-// @ts-ignore
 
 export default class MyDocument extends Document {
   render() {
