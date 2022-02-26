@@ -283,7 +283,7 @@ export function ContactForm() {
                       id="message"
                       name="message"
                       rows={4}
-                      className="block w-full rounded-md border border-gray-300 py-3 px-4 text-slate-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:text-slate-200"
+                      className="block w-full rounded-md border border-gray-300 py-3 px-4 text-slate-900 placeholder-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:text-slate-200"
                       aria-describedby="message-max"
                       defaultValue={''}
                     />

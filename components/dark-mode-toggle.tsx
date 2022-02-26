@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {useTheme} from 'next-themes'
-import {classNames} from '../utils/styles'
+import {classNames} from '@/lib/utils/styles'
 import {MoonIcon, SunIcon} from '@heroicons/react/outline'
 
 export const DarkModeToggleDesktop: React.FC = () => {
@@ -55,7 +55,7 @@ export const DarkModeToggleMobile: React.FC = () => {
       <button
         aria-label="Toggle Dark Mode"
         type="button"
-        className="inline-flex items-center justify-center rounded-3xl rounded-md border border-2 border-slate-300 hover:border-slate-800 hover:border-3 dark:border-slate-600 dark:hover:border-slate-300 duration-300 px-4 py-2 text-sm font-bold text-slate-900 shadow-sm focus:outline-none dark:text-slate-200"
+        className="hover:border-3 inline-flex items-center justify-center rounded-3xl rounded-md border border-2 border-slate-300 px-4 py-2 text-sm font-bold text-slate-900 shadow-sm duration-300 hover:border-slate-800 focus:outline-none dark:border-slate-600 dark:text-slate-200 dark:hover:border-slate-300"
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
         {theme === 'dark' ? (
           <SunIcon className={'h-8 w-8 pr-2'} />
