@@ -1,9 +1,9 @@
 # Hello. I'm Ovi. 👋
 
-## Software Developer & Founder @ Vollm
+## Software Developer & Founder
+I build cool products on the internet with Clojure
 
-> We build Ai over the phone for underserved languages
->
+Currently building [ShipClojure](https://shipclojure.com)
 
 ## Office Hours
 
