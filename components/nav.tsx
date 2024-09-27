@@ -86,13 +86,13 @@ export function Nav() {
               <div className="flex items-center justify-between">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <span className="sr-only">Ovi Stoica</span>
-                  <a
-                    className="text-primary underlined block whitespace-nowrap text-2xl font-medium text-gray-700 transition focus:outline-none"
-                    href="/">
-                    <h1 className="link-underline link-underline-black text-gray-700 dark:text-gray-300">
-                      Ovi Stoica
-                    </h1>
-                  </a>
+                  <Link href={'/'}>
+                    <a className="text-primary underlined block whitespace-nowrap text-2xl font-medium text-gray-700 transition focus:outline-none">
+                      <h1 className="link-underline link-underline-black text-gray-700 dark:text-gray-300">
+                        Ovi Stoica
+                      </h1>
+                    </a>
+                  </Link>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button
